@@ -81,7 +81,7 @@ a:hover{
 .hamburger-icon {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 24px;
     width: 30px;
     cursor: pointer;
@@ -96,7 +96,7 @@ a:hover{
 
 .menu-links {
     position: absolute;
-    bottom: 100%;
+    top: 100%;
     right: 0;
     background-color: white;
     width: fit-content;
